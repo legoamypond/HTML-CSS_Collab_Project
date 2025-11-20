@@ -1,8 +1,12 @@
 body {
+    background-image:url('archery.jpg');
+    background-repeat: repeat;
     font-family: Arial, sans-serif;
     background-color: #e6f2ff;
     margin: 0;
     padding: 20px;
+    text-align:center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .container {
@@ -17,6 +21,7 @@ body {
 h1 {
     color: #3366cc;
     text-align: center;
+    
 }
 
 h2 {
@@ -24,6 +29,8 @@ h2 {
     border-bottom: 1px solid #ff6600;
     padding-bottom: 5px;
     text-align: center;
+    background-color: beige;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -33,12 +40,16 @@ img {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
+    padding-left: 40px;
+    padding-top:15px;
         }
 
 
 
 table {
-  width: 70%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  background-color: beige;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
